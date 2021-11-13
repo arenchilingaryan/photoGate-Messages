@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import Messages from './components/Messages';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Messages />, document.getElementById('root'));

@@ -11,7 +11,9 @@ module.exports = {
       name: "Messages",
       filename: "main.bundle.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './Messages': './src/components/Messages.tsx'
+      },
       shared: {
         ...deps,
         react: {
