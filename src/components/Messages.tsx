@@ -4,7 +4,7 @@ import './App.css';
 
 const Messages = () => {
   return (
-    <BrowserRouter basename='/messages'>
+    <BrowserRouter basename="/messages">
       <div className="div" style={{ fontSize: '100px' }}>
         Messages
         <Link to="/one">ONE</Link>
